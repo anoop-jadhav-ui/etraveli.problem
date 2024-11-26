@@ -1,0 +1,29 @@
+.movieListItem {
+  cursor: pointer;
+  padding: 0.5rem 2rem 0.5rem 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid lightgray;
+  }
+
+  &:hover {
+    background-color: whitesmoke;
+  }
+  .title {
+    flex: 1;
+    font-weight: normal;
+  }
+  .episodeNo {
+    font-size: 0.8125rem;
+    color: grey;
+  }
+  .releaseDate {
+    font-size: 0.8125rem;
+    color: grey;
+  }
+}

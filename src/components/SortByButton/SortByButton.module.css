@@ -1,0 +1,35 @@
+.soryByContainer {
+  position: relative;
+  button {
+    width: 100%;
+  }
+
+  .sortOptions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+
+    background-color: lightgray;
+    list-style: none;
+
+    li {
+      label {
+        cursor: pointer;
+        box-sizing: border-box;
+        padding: 1rem;
+        width: 100%;
+        display: block;
+
+        input + span {
+          padding-left: 0.5rem;
+        }
+      }
+      & + & {
+        border-top: 1px solid grey;
+      }
+    }
+  }
+}

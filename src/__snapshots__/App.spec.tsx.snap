@@ -1,0 +1,313 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<App/> > Search > should search movie by name 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <header
+      class="_header_63c2ea"
+    >
+      <div
+        class="_soryByContainer_1a70a7"
+      >
+        <button>
+          Sort By
+        </button>
+      </div>
+      <input
+        aria-label="Type to search..."
+        name="search"
+        placeholder="Type to search..."
+      />
+    </header>
+    <main
+      class="content"
+    >
+      <ul
+        class="movie-list"
+      >
+        <li
+          class="_movieListItem_c64107"
+          role="listitem"
+          tabindex="0"
+        >
+          <p
+            class="_episodeNo_c64107"
+          >
+            EPISODE 2
+          </p>
+          <h4
+            class="_title_c64107"
+          >
+            Episode V - The Empire Strikes Back
+          </h4>
+          <p
+            class="_releaseDate_c64107"
+          >
+            1983-05-25
+          </p>
+        </li>
+      </ul>
+      <aside
+        class="_preview_a93860"
+        data-testid="preview"
+      >
+        <h2>
+          Click on a movie to see the preview
+        </h2>
+      </aside>
+    </main>
+  </div>
+</div>
+`;
+
+exports[`<App/> > Sort By > should sort by episode by default 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <header
+      class="_header_63c2ea"
+    >
+      <div
+        class="_soryByContainer_1a70a7"
+      >
+        <button>
+          Sort By
+        </button>
+      </div>
+      <input
+        aria-label="Type to search..."
+        name="search"
+        placeholder="Type to search..."
+      />
+    </header>
+    <main
+      class="content"
+    >
+      <ul
+        class="movie-list"
+      >
+        <li
+          class="_movieListItem_c64107"
+          role="listitem"
+          tabindex="0"
+        >
+          <p
+            class="_episodeNo_c64107"
+          >
+            EPISODE 1
+          </p>
+          <h4
+            class="_title_c64107"
+          >
+            Episode IV - A New Hope
+          </h4>
+          <p
+            class="_releaseDate_c64107"
+          >
+            1977-05-25
+          </p>
+        </li>
+        <li
+          class="_movieListItem_c64107"
+          role="listitem"
+          tabindex="0"
+        >
+          <p
+            class="_episodeNo_c64107"
+          >
+            EPISODE 2
+          </p>
+          <h4
+            class="_title_c64107"
+          >
+            Episode V - The Empire Strikes Back
+          </h4>
+          <p
+            class="_releaseDate_c64107"
+          >
+            1983-05-25
+          </p>
+        </li>
+        <li
+          class="_movieListItem_c64107"
+          role="listitem"
+          tabindex="0"
+        >
+          <p
+            class="_episodeNo_c64107"
+          >
+            EPISODE 3
+          </p>
+          <h4
+            class="_title_c64107"
+          >
+            Episode VI - Return of the Jedi
+          </h4>
+          <p
+            class="_releaseDate_c64107"
+          >
+            1980-05-17
+          </p>
+        </li>
+        <li
+          class="_movieListItem_c64107"
+          role="listitem"
+          tabindex="0"
+        >
+          <p
+            class="_episodeNo_c64107"
+          >
+            EPISODE 4
+          </p>
+          <h4
+            class="_title_c64107"
+          >
+            Episode I - The Phantom Menace
+          </h4>
+          <p
+            class="_releaseDate_c64107"
+          >
+            1999-05-19
+          </p>
+        </li>
+      </ul>
+      <aside
+        class="_preview_a93860"
+        data-testid="preview"
+      >
+        <h2>
+          Click on a movie to see the preview
+        </h2>
+      </aside>
+    </main>
+  </div>
+</div>
+`;
+
+exports[`<App/> > Sort By > should sort by release date when clicked on the release date option 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <header
+      class="_header_63c2ea"
+    >
+      <div
+        class="_soryByContainer_1a70a7"
+      >
+        <button>
+          Sort By
+        </button>
+      </div>
+      <input
+        aria-label="Type to search..."
+        name="search"
+        placeholder="Type to search..."
+      />
+    </header>
+    <main
+      class="content"
+    >
+      <ul
+        class="movie-list"
+      >
+        <li
+          class="_movieListItem_c64107"
+          role="listitem"
+          tabindex="0"
+        >
+          <p
+            class="_episodeNo_c64107"
+          >
+            EPISODE 1
+          </p>
+          <h4
+            class="_title_c64107"
+          >
+            Episode IV - A New Hope
+          </h4>
+          <p
+            class="_releaseDate_c64107"
+          >
+            1977-05-25
+          </p>
+        </li>
+        <li
+          class="_movieListItem_c64107"
+          role="listitem"
+          tabindex="0"
+        >
+          <p
+            class="_episodeNo_c64107"
+          >
+            EPISODE 3
+          </p>
+          <h4
+            class="_title_c64107"
+          >
+            Episode VI - Return of the Jedi
+          </h4>
+          <p
+            class="_releaseDate_c64107"
+          >
+            1980-05-17
+          </p>
+        </li>
+        <li
+          class="_movieListItem_c64107"
+          role="listitem"
+          tabindex="0"
+        >
+          <p
+            class="_episodeNo_c64107"
+          >
+            EPISODE 2
+          </p>
+          <h4
+            class="_title_c64107"
+          >
+            Episode V - The Empire Strikes Back
+          </h4>
+          <p
+            class="_releaseDate_c64107"
+          >
+            1983-05-25
+          </p>
+        </li>
+        <li
+          class="_movieListItem_c64107"
+          role="listitem"
+          tabindex="0"
+        >
+          <p
+            class="_episodeNo_c64107"
+          >
+            EPISODE 4
+          </p>
+          <h4
+            class="_title_c64107"
+          >
+            Episode I - The Phantom Menace
+          </h4>
+          <p
+            class="_releaseDate_c64107"
+          >
+            1999-05-19
+          </p>
+        </li>
+      </ul>
+      <aside
+        class="_preview_a93860"
+        data-testid="preview"
+      >
+        <h2>
+          Click on a movie to see the preview
+        </h2>
+      </aside>
+    </main>
+  </div>
+</div>
+`;

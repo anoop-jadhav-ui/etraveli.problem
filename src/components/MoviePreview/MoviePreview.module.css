@@ -1,0 +1,11 @@
+.preview {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+
+  border: 1px solid lightgray;
+  .director {
+    padding-top: 1rem;
+  }
+}

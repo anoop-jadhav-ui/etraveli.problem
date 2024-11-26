@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  gap: 1rem;
+
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    padding-inline: 1rem;
+
+    .movie-list {
+      border: 1px solid lightgray;
+      border-right: 0;
+
+      .loading-text {
+        text-align: center;
+        padding: 2rem;
+      }
+
+      .empty-state {
+        font-weight: bold;
+        text-align: center;
+        padding: 2rem;
+      }
+    }
+  }
+}
