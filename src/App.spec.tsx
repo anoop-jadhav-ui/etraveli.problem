@@ -7,7 +7,7 @@ import {
 } from "@testing-library/react";
 import { describe, expect, it, vi } from "vitest";
 import App from "./App";
-import { MoviesProvider } from "./context/MoviesContext";
+import { MoviesProvider } from "./providers/MovieProvider";
 
 const mockFetch = vi.fn();
 global.fetch = mockFetch;

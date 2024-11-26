@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styles from "./SortByButton.module.css";
-import { useMovies } from "../../context/MoviesContext";
+import { useMovies } from "../../hooks/useMovies";
 
 const SortByButton = () => {
   const { sortBy, setSortBy } = useMovies();

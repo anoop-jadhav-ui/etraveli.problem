@@ -4,8 +4,8 @@ import MovieListItem from "./components/MovieListItem/MovieListItem";
 import MoviePreview from "./components/MoviePreview/MoviePreview";
 import Header from "./components/Header/Header";
 import { useState } from "react";
-import { useMovies } from "./context/MoviesContext";
 import { MovieType } from "./types/MovieType";
+import { useMovies } from "./hooks/useMovies";
 
 const App = () => {
   const { movies, isLoading } = useMovies();

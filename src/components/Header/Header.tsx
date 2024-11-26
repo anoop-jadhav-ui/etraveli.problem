@@ -1,6 +1,6 @@
 import styles from "./Header.module.css";
 
-import { useMovies } from "../../context/MoviesContext";
+import { useMovies } from "../../hooks/useMovies";
 import SortByButton from "../SortByButton/SortByButton";
 
 const Header = () => {
