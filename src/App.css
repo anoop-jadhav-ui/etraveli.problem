@@ -6,10 +6,10 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
 
-    padding-inline: 1rem;
+    margin-inline: 1rem;
+    border: 1px solid lightgray;
 
     .movie-list {
-      border: 1px solid lightgray;
       border-right: 0;
 
       .loading-text {
@@ -21,6 +21,18 @@
         font-weight: bold;
         text-align: center;
         padding: 2rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 1023px) {
+  .container {
+    .content {
+      grid-template-columns: 1fr;
+
+      .movie-list {
+        border-bottom: 1px solid lightgray;
       }
     }
   }

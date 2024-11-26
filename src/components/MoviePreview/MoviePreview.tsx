@@ -1,5 +1,5 @@
+import { MovieType } from "../../types/MovieType";
 import styles from "./MoviePreview.module.css";
-import { MovieType } from "../../hooks/useMovies";
 
 const MoviePreview = ({ movie }: { movie: MovieType | null }) => {
   return (

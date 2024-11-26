@@ -4,8 +4,14 @@
   gap: 0.5rem;
   padding: 1rem;
 
-  border: 1px solid lightgray;
+  border-left: 1px solid lightgray;
   .director {
     padding-top: 1rem;
+  }
+}
+
+@media (max-width: 1023px) {
+  .preview {
+    border-left: 0;
   }
 }
