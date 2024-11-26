@@ -27,7 +27,7 @@
           padding-left: 0.5rem;
         }
       }
-      & + & {
+      & + li {
         border-top: 1px solid grey;
       }
     }
